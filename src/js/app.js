@@ -32,7 +32,7 @@ export class Bowerman extends Character {
         if (type != 'Bowerman') {
             throw new Error('Неправильный тип игрового персонажа.');
         }
-        super(name, type);
+        super(name, 'Bowerman');
         this.attack = 25;
         this.defence = 25;
     }
@@ -43,7 +43,7 @@ export class Swordsman extends Character {
         if (type != 'Swordsman') {
             throw new Error('Неправильный тип игрового персонажа.');
         }
-        super(name, type);
+        super(name, 'Swordsman');
         this.attack = 40;
         this.defence = 10;
     }
@@ -54,7 +54,7 @@ export class Magician extends Character {
         if (type != 'Magician') {
             throw new Error('Неправильный тип игрового персонажа.');
         }
-        super(name, type);
+        super(name, 'Magician');
         this.attack = 10;
         this.defence = 40;
     }
@@ -65,7 +65,7 @@ export class Daemon extends Character {
         if (type != 'Daemon') {
             throw new Error('Неправильный тип игрового персонажа.');
         }
-        super(name, type);
+        super(name, 'Daemon');
         this.attack = 10;
         this.defence = 40;
     }
@@ -76,7 +76,7 @@ export class Undead extends Character {
         if (type != 'Undead') {
             throw new Error('Неправильный тип игрового персонажа.');
         }
-        super(name, type);
+        super(name, 'Undead');
         this.attack = 25;
         this.defence = 25;
     }
@@ -87,7 +87,7 @@ export class Zombie extends Character {
         if (type != 'Zombie') {
             throw new Error('Неправильный тип игрового персонажа.');
         }
-        super(name, type);
+        super(name, 'Zombie');
         this.attack = 40;
         this.defence = 10;
     }
