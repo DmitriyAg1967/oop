@@ -28,10 +28,7 @@ export default class Character {
 }
 
 export class Bowerman extends Character {
-    constructor(name, type) {
-        if (type != 'Bowerman') {
-            throw new Error('Неправильный тип игрового персонажа.');
-        }
+    constructor(name) {
         super(name, 'Bowerman');
         this.attack = 25;
         this.defence = 25;
@@ -39,10 +36,7 @@ export class Bowerman extends Character {
 }
 
 export class Swordsman extends Character {
-    constructor(name, type) {
-        if (type != 'Swordsman') {
-            throw new Error('Неправильный тип игрового персонажа.');
-        }
+    constructor(name) {
         super(name, 'Swordsman');
         this.attack = 40;
         this.defence = 10;
@@ -50,10 +44,7 @@ export class Swordsman extends Character {
 }
 
 export class Magician extends Character {
-    constructor(name, type) {
-        if (type != 'Magician') {
-            throw new Error('Неправильный тип игрового персонажа.');
-        }
+    constructor(name) {
         super(name, 'Magician');
         this.attack = 10;
         this.defence = 40;
@@ -61,10 +52,7 @@ export class Magician extends Character {
 }
 
 export class Daemon extends Character {
-    constructor(name, type) {
-        if (type != 'Daemon') {
-            throw new Error('Неправильный тип игрового персонажа.');
-        }
+    constructor(name) {
         super(name, 'Daemon');
         this.attack = 10;
         this.defence = 40;
@@ -72,10 +60,7 @@ export class Daemon extends Character {
 }
 
 export class Undead extends Character {
-    constructor(name, type) {
-        if (type != 'Undead') {
-            throw new Error('Неправильный тип игрового персонажа.');
-        }
+    constructor(name) {
         super(name, 'Undead');
         this.attack = 25;
         this.defence = 25;
@@ -83,10 +68,7 @@ export class Undead extends Character {
 }
 
 export class Zombie extends Character {
-    constructor(name, type) {
-        if (type != 'Zombie') {
-            throw new Error('Неправильный тип игрового персонажа.');
-        }
+    constructor(name) {
         super(name, 'Zombie');
         this.attack = 40;
         this.defence = 10;

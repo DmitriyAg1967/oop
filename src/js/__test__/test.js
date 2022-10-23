@@ -61,30 +61,6 @@ test('Не верное имя', () => {
   expect(() => new Character('Bowerman1111', 'Bowerman')).toThrow();
 });
 
-test('Не верный тип', () => {
-  expect(() => new Bowerman('Bowerman', 'Bowerman2222')).toThrow();
-});
-
-test('Не верный тип', () => {
-  expect(() => new Swordsman('Swordsman', 'Swordsman2222')).toThrow();
-});
-
-test('Не верный тип', () => {
-  expect(() => new Magician('Magician', 'Magician2222')).toThrow();
-});
-
-test('Не верный тип', () => {
-  expect(() => new Daemon('Daemon', 'Daemon2222')).toThrow();
-});
-
-test('Не верный тип', () => {
-  expect(() => new Undead('Undead', 'Undead2222')).toThrow();
-});
-
-test('Не верный тип', () => {
-  expect(() => new Zombie('Zombie', 'Zombie2222')).toThrow();
-});
-
 test('bowermantest', () => {
   const bowerman = new Bowerman('Bowerman', 'Bowerman')
   expect(referencebowerman).toEqual(bowerman);
